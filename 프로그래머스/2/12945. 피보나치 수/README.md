@@ -68,3 +68,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 한 줄 요약
+재귀함수는 생각도 안 했고 dp를 이용해서 풀었음!
