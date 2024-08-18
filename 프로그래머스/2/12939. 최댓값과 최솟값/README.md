@@ -52,3 +52,6 @@
       </table>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 한줄 요약
+처음에는 모든 합을 구해야 하나? 생각했다가 간단한 수학 문제임을 파악했다! lambda 함수도 활용할 수 있음.
