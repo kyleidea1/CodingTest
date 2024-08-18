@@ -57,5 +57,8 @@
 
 <p>※ 공지 - 2022년 1월 14일 제한 조건과 테스트 케이스가 추가되었습니다.</p>
 
+### 한 줄 요약
+문자열 수정할 때는 리스트로 바꿔서 수정하고, 다시 join으로 합쳐야했던 것 기억하기! 문자열은 immutable type이기 때문.
+
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
