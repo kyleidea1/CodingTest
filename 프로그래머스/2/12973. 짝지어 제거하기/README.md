@@ -66,3 +66,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 한 줄 요약
+케이스 잘 분류하고, 셀프 디버깅 적극적으로 하기. 제거할 때 pop 쓰는건 기본!(시간복잡도이슈)
