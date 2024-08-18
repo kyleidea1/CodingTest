@@ -199,3 +199,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 한 줄 요약
+10진수 -> 2진수 bin 함수 + 슬라이싱[2:] 이용, 반대로 2진수 -> 10진수는 int(binary_str,2) 이런식으로 base 파라미터에 몇진법인지 패스
