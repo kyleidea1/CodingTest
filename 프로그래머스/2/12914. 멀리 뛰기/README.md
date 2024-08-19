@@ -64,3 +64,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 요약
+순간이동 류 문제 중 dp 를 사용하여 푸는 대표적인, 쉬운 문제!
