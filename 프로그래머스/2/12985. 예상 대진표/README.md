@@ -57,3 +57,5 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+트리 자료구조 이해하는 문제인 것 같은데.. 비트 연산자를 안 써도 되긴 하는 듯? 그래도 효율적일테니까..~
