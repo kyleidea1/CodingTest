@@ -86,3 +86,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 요약
+딕셔너리 사용! count 함수처럼.. O(n)으로 가면 위험하다 싶으면 딕셔너리가 개꿀
