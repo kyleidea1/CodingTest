@@ -125,3 +125,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 요약
+if words[i] not in dic: 으로 중복 체크. 딕셔너리를 사용하는 좋은 문제, 그러나 인덱싱이 좀 지저분해서 애먹었다..
