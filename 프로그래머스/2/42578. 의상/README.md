@@ -106,3 +106,6 @@ face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 요약
+그냥 무난한 해싱 문제다. Counter를 적극적으로 이용하기!
