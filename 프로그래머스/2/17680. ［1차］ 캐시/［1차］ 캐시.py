@@ -1,16 +1,17 @@
 from collections import deque
 
 def solution(cacheSize, cities):
-    cache = deque([cities[i].lower() for i in range(cacheSize)])
-    cost = 5 * cacheSize
+    cache = deque([])
+    cost = 0
     
-    for i in range(cacheSize,len(cities)):
-        if cities[i].lower() in cache:
-            del(cache(cache.index(cities[i])))
-            cost += 1
-        else:
+    for i in range(len(cities)):
+        if cities[i].lower() not in cache:
+            cache.append(cities[i].lower())
+            if len(cache) > cacheSize:
+                cache.popleft()
             cost += 5
-            cache.popleft()
-        cache.append(cities[i].lower())
-        
+        else:
+            cache.remove(cities[i].lower())
+            cache.append(cities[i].lower())
+            cost += 1
     return cost
