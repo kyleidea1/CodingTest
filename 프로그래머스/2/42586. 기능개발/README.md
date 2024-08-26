@@ -73,3 +73,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 요약
+deque를 활용하고.. 사실 테케는 바로 맞았는데 매 패스 당 speed q를 같이 pop해주지 않아서 몇 번 더 틀렸다. 당연한 건데 이 테케가 왜 맞는 건지 모르겠다.. 그걸 몰라서 한참 헤맸는데!!
