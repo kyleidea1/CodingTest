@@ -124,3 +124,7 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 요약
+이거 그냥 파싱을 잘 하는 문제.. 스트링으로 들어온 걸 어떻게 잘 고치나요..?
+-> slicing, split 적극적으로 사용하기!
