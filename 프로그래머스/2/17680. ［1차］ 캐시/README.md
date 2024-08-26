@@ -95,3 +95,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+### 요약
+케이스워크 잘 하고,, remove vs pop 차이!! remove는 O(n)이라 덮어놓고 피하는 경우가 있었는데, pq를 쓰거나 특정 인덱스가 아닌 양 끝 원소를 없애기만 할 경우가 아니라면 어쩔 수 없이 써야한다! 그리고 배열 크기도 작아서.. 쓸만했다.
