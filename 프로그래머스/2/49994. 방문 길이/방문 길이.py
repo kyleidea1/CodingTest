@@ -12,3 +12,5 @@ def solution(dirs):
             if tmp not in loads and [tmp[1],tmp[0]] not in loads:
                 loads.append(tmp)
     return len(loads)
+
+# 다음에 풀 때 set으로 풀어보기

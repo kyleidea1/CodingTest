@@ -1,10 +1,10 @@
 # [level 2] 방문 길이 - 49994 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/49994) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/49994#) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 4.39 ms
+메모리: 10.3 MB, 시간: 2.99 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 29일 14:12:22
+2024년 08월 29일 14:13:31
 
 ### 문제 설명
 
