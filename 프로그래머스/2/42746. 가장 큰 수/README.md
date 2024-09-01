@@ -57,3 +57,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+딱 봐도 그리디인데.. 어떤 식으로 그리디냐면 두 개의 원소를 붙였을 때 먼저 와야 더 커지는 놈을 앞에 두도록 정렬해야 한다는 것이다..
+그러려면 from functools import cmp_to_key라는 녀석을 쓸 줄 알아야 한다..! compare 함수를 작성해서, 앞에 와야 하는 놈에 음수 리턴값을 준다.
