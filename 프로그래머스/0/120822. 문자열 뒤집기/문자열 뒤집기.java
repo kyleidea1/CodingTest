@@ -4,6 +4,6 @@ class Solution {
         for(int i = 0; i < s.length();i++) {
             ans += s.charAt(s.length()-1-i);
         }
-        return ans;
+        return new StringBuilder(s).reverse().toString();
     }
 }
