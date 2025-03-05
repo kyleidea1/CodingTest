@@ -1,7 +1,7 @@
 def solution(A,B):
-    ans = 0
+    sum = 0
     A.sort()
-    B = sorted(B, reverse = True)
+    B.sort(reverse = True)
     while A:
-        ans += A.pop() * B.pop()
-    return ans
+        sum += (A.pop()*B.pop())
+    return sum
