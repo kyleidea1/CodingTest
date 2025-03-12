@@ -1,14 +1,19 @@
 def solution(s):
-    cnt, zero = 0, 0
+    removed_z, cnt = 0,0
     while s != '1':
-        s, removed_zero = conversion(s)
+        s,z = remove_zero(s)
+        removed_z += z
         cnt += 1
-        zero += removed_zero
-    return [cnt,zero]
+    return cnt,removed_z
 
-def conversion(s):
-    one = s.count('1')
-    removed_zero = len(s) - one
-    one_bin = bin(one)[2:]
-    return one_bin, removed_zero
+def remove_zero(s):
+    o,z = 0,0
+    for l in s:
+        if l == '0':
+            z += 1
+        else:
+            o += 1
+    res = bin(o)[2:]
+    return res,z # 남은 1 개수, 없앤 0 개수
     
+            
