@@ -1,25 +1,25 @@
 from collections import deque
 
 def solution(maps):
-    rows = len(maps)
-    cols = len(maps[0])
-    
-    q = deque([])
-    q.append((0,0,1))
+    rows, cols = len(maps), len(maps[0])
     visited = [[False]*cols for _ in range(rows)]
+    
+    q = deque([(0,0,1)])
     visited[0][0] = True
     
+    dx = [-1,1,0,0]
+    dy = [0,0,-1,1]
+    
     while q:
-        dm = (-1,1,0,0)
-        dn = (0,0,-1,1)
-        m,n,cnt = q.popleft()
+        y,x,cnt = q.popleft()
         for i in range(4):
-            nm, nn, ncnt = m+dm[i], n+dn[i], cnt+1
-            if 0<=nm<rows and 0<=nn<cols and not visited[nm][nn] and maps[nm][nn] == 1:
-                if nm == rows-1 and nn == cols-1:
-                    return ncnt
-                else:
-                    visited[nm][nn] = True
-                    q.append((nm,nn,ncnt))
+            ny,nx,ncnt = y + dy[i], x + dx[i], cnt + 1
+            if 0<=ny<rows and 0<=nx<cols:
+                if not visited[ny][nx] and maps[ny][nx] == 1:
+                    if ny == rows - 1 and nx == cols - 1:
+                        return ncnt
+                    else:
+                        visited[ny][nx] = True
+                        q.append((ny,nx,ncnt))
+                    
     return -1
-            
