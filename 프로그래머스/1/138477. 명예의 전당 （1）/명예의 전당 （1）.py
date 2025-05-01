@@ -7,5 +7,5 @@ def solution(k, score):
         heapq.heappush(heap,score[i])
         if len(heap) > k:
             heapq.heappop(heap)
-        ans.append(min(heap))
+        ans.append(heap[0])
     return ans

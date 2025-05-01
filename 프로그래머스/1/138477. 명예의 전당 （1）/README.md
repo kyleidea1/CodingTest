@@ -1,10 +1,10 @@
 # [level 1] 명예의 전당 (1) - 138477 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/138477) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/138477#) 
 
 ### 성능 요약
 
-메모리: 9.32 MB, 시간: 4.01 ms
+메모리: 9.25 MB, 시간: 0.46 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 05월 01일 11:49:52
+2025년 05월 01일 11:50:56
 
 ### 문제 설명
 
